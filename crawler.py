@@ -24,6 +24,12 @@ paths_to_skip = ['/resource', '/authors', '/reference-values-and-conversion-tabl
 sleep_time = 10000 
 consecutive_requests = 100
 
+
+""" TODO: 
+- add logic to log all prints in a separate file, 
+- check why this page: https://www.merckvetmanual.com/poultry/avian-influenza-in-poultry-and-wild-birds/avian-influenza-in-poultry-and-wild-birds
+  is being being skipped in find_urls function
+"""
 class AccessDenied(Exception):
     def __init__(self, url):
         super().__init__(f"403 Forbidden: Access denied to {url}")
@@ -40,7 +46,7 @@ async def find_urls(page):
 
     for link in links:
         href = await link.get_attribute("href")
-        if (not href or (not href.startswith("/")) 
+        if (not href or (not href.startswith("/") and not href.startswith(base_url))
                         or any(href.startswith(skip_path) for skip_path in paths_to_skip)):
             print(f"❌ Skipping link: {href}")
             continue  # Skip empty, external and irrelevant links
@@ -56,7 +62,6 @@ async def find_urls(page):
         if clean_url not in seen:
             seen.add(clean_url)
             unique_hrefs.append(clean_url)
-            print("✅ Added to to_explore:", clean_url)
 
     return unique_hrefs
 
@@ -97,7 +102,6 @@ async def crawl(page):
                 to_explore.add(current_url)
                 raise AccessDenied(current_url)
             
-            visited.add(current_url)
             request_count += 1
             if (request_count % consecutive_requests) == 0:
                 print(f"✅ Requests made: {request_count}, sleeping for {sleep_time} ms")
@@ -113,7 +117,12 @@ async def crawl(page):
             found_urls = await find_urls(page)
             # add new URLS only if they are not in visited
             unexplored = [url for url in found_urls if url not in visited]
+            print(f"✅ Found {len(unexplored)} new URLs to explore.")
             to_explore.update(unexplored)
+            visited.add(current_url)
+    except KeyboardInterrupt:
+        if current_url:
+            to_explore.add(current_url)
     finally:
         # Always save progress whether stopped normally, due to an exception or with Ctrl+C
         with open("./data/visited.txt", "w", encoding="utf-8") as f:
@@ -128,7 +137,7 @@ async def crawl(page):
         print(f"💾 Progress saved: \n")
         print(f"Urls to explore: {len(to_explore)}")
         print(f"Urls already visited: {len(visited)}")
-        print(f"Number of Content Urls: {len(content_urls)}")
+        print(f"Number of new content Urls: {len(content_urls)}")
 
 async def main():
 
