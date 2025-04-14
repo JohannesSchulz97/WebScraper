@@ -1,0 +1,51 @@
+Scraping articles:   0%|          | 0/2915 [00:00<?, ?it/s]Scraping article 1/2915: https://www.merckvetmanual.com/respiratory-system/respiratory-diseases-of-small-animals/allergic-pneumonitis-in-dogs-and-cats
+Scraping articles:   0%|          | 1/2915 [00:15<12:35:26, 15.55s/it]Scraping article 2/2915: https://www.merckvetmanual.com/generalized-conditions/bovine-leukosis/bovine-leukosis
+Scraping articles:   0%|          | 2/2915 [00:21<8:14:56, 10.19s/it] Scraping article 3/2915: https://www.merckvetmanual.com/exotic-and-laboratory-animals/amphibians/emergency-care-of-amphibians
+Scraping articles:   0%|          | 3/2915 [00:25<5:44:18,  7.09s/it]Scraping article 4/2915: https://www.merckvetmanual.com/respiratory-system/respiratory-diseases-of-horses/guttural-pouch-disease-in-horses
+Scraping articles:   0%|          | 4/2915 [00:29<4:45:56,  5.89s/it]Scraping article 5/2915: https://www.merckvetmanual.com/dog-owners/reproductive-disorders-of-dogs/infertility-in-dogs
+Scraping articles:   0%|          | 5/2915 [00:32<3:56:42,  4.88s/it]Scraping article 6/2915: https://www.merckvetmanual.com/circulatory-system/congenital-and-inherited-anomalies-of-the-cardiovascular-system/tetralogy-of-fallot-in-animals
+Scraping articles:   0%|          | 6/2915 [00:37<4:04:37,  5.05s/it]Scraping article 7/2915: https://www.merckvetmanual.com/cat-owners/lung-and-airway-disorders-of-cats/disorders-of-the-chest-cavity-of-cats
+Scraping articles:   0%|          | 7/2915 [00:41<3:37:45,  4.49s/it]Scraping article 8/2915: https://www.merckvetmanual.com/circulatory-system/cardiovascular-system-introduction/principles-of-therapy-of-cardiovascular-disease-in-animals
+Scraping articles:   0%|          | 8/2915 [00:46<3:44:17,  4.63s/it]Scraping article 9/2915: https://www.merckvetmanual.com/cat-owners/eye-disorders-of-cats/cancers-and-tumors-of-the-eye-in-cats
+Scraping articles:   0%|          | 9/2915 [00:49<3:28:39,  4.31s/it]Scraping article 10/2915: https://www.merckvetmanual.com/immune-system/immunologic-diseases/secondary-immunodeficiencies-in-animals
+Scraping articles:   0%|          | 10/2915 [00:53<3:15:04,  4.03s/it]Scraping article 11/2915: https://www.merckvetmanual.com/respiratory-system/respiratory-diseases-of-small-animals/pneumonia-in-dogs-and-cats
+Scraping articles:   0%|          | 11/2915 [00:57<3:20:41,  4.15s/it]Scraping article 12/2915: https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-digestive-system/drugs-used-to-treat-diarrhea-in-monogastric-animals
+Scraping articles:   0%|          | 12/2915 [01:02<3:37:10,  4.49s/it]Scraping article 13/2915: https://www.merckvetmanual.com/pharmacology/antimicrobials/antimicrobial-drug-factors-for-animals
+Scraping articles:   0%|          | 13/2915 [01:08<3:58:01,  4.92s/it]Scraping article 14/2915: https://www.merckvetmanual.com/digestive-system/abdominal-fat-necrosis/abdominal-fat-necrosis-in-animals
+Scraping articles:   0%|          | 14/2915 [01:12<3:36:02,  4.47s/it]Scraping article 15/2915: https://www.merckvetmanual.com/toxicology/food-hazards/garlic-and-onion-allium-spp-toxicosis-in-animals
+Scraping articles:   1%|          | 15/2915 [01:16<3:37:36,  4.50s/it]Scraping article 16/2915: https://www.merckvetmanual.com/dog-owners/description-and-physical-characteristics-of-dogs/description-and-physical-characteristics-of-dogs
+Scraping articles:   1%|          | 16/2915 [01:21<3:43:15,  4.62s/it]Scraping article 17/2915: https://www.merckvetmanual.com/endocrine-system/endocrine-system-introduction/endocrine-diseases-in-animals
+Scraping articles:   1%|          | 17/2915 [01:26<3:43:15,  4.62s/it]Scraping article 18/2915: https://www.merckvetmanual.com/horse-owners/selecting-and-providing-a-home-for-a-horse/providing-a-home-for-a-horse
+Scraping articles:   1%|          | 18/2915 [01:30<3:30:51,  4.37s/it]Scraping article 19/2915: https://www.merckvetmanual.com/respiratory-system/respiratory-diseases-of-horses/arytenoid-chondropathy-in-horses
+Scraping articles:   1%|          | 19/2915 [01:34<3:37:55,  4.52s/it]Scraping article 20/2915: https://www.merckvetmanual.com/digestive-system/diseases-of-the-stomach-and-intestines-in-small-animals/gastrointestinal-obstruction-in-small-animals
+Scraping articles:   1%|          | 20/2915 [01:41<4:07:13,  5.12s/it]Scraping article 21/2915: https://www.merckvetmanual.com/pharmacology/antifungal-agents/fluoropyrimidines-for-use-in-animals
+Scraping articles:   1%|          | 21/2915 [01:45<3:45:02,  4.67s/it]Scraping article 22/2915: https://www.merckvetmanual.com/musculoskeletal-system/disorders-of-the-foot-in-horses/thrush-in-horses
+Scraping articles:   1%|          | 22/2915 [01:50<3:49:52,  4.77s/it]Scraping article 23/2915: https://www.merckvetmanual.com/reproductive-system/cystic-ovary-disease/cystic-ovary-disease-herd-problem
+Scraping articles:   1%|          | 23/2915 [01:54<3:42:34,  4.62s/it]Scraping article 24/2915: https://www.merckvetmanual.com/public-health/zoonoses/emergence-and-reemergence-of-zoonotic-diseases
+Scraping articles:   1%|          | 24/2915 [01:58<3:34:24,  4.45s/it]Scraping article 25/2915: https://www.merckvetmanual.com/generalized-conditions/tularemia/tularemia-in-animals
+Scraping articles:   1%|          | 25/2915 [02:02<3:29:22,  4.35s/it]Scraping article 26/2915: https://www.merckvetmanual.com/cat-owners/disorders-affecting-multiple-body-systems-of-cats/introduction-to-disorders-affecting-multiple-body-systems-of-cats
+Scraping articles:   1%|          | 26/2915 [02:06<3:19:31,  4.14s/it]Scraping article 27/2915: https://www.merckvetmanual.com/digestive-system/infectious-diarrheal-diseases-in-horses/salmonellosis-in-horses
+Scraping articles:   1%|          | 27/2915 [02:10<3:26:31,  4.29s/it]Scraping article 28/2915: https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-digestive-system/cathartic-and-laxative-drugs-used-in-monogastric-animals
+Scraping articles:   1%|          | 28/2915 [02:15<3:30:39,  4.38s/it]Scraping article 29/2915: https://www.merckvetmanual.com/respiratory-system/non-infectious-respiratory-system-diseases-in-cattle/anaphylaxis-in-cattle
+Scraping articles:   1%|          | 29/2915 [02:19<3:29:55,  4.36s/it]Scraping article 30/2915: https://www.merckvetmanual.com/cat-owners/skin-disorders-of-cats/ringworm-dermatophytosis-in-cats
+Scraping articles:   1%|1         | 30/2915 [02:24<3:36:28,  4.50s/it]Scraping article 31/2915: https://www.merckvetmanual.com/poultry/ectoparasites/flies-gnats-and-mosquitoes-of-poultry
+Scraping articles:   1%|1         | 31/2915 [02:27<3:18:44,  4.13s/it]Scraping article 32/2915: https://www.merckvetmanual.com/pharmacology/vaccines-and-immunotherapy/immunologic-adjuvants-in-animals
+Scraping articles:   1%|1         | 32/2915 [02:32<3:20:04,  4.16s/it]Scraping article 33/2915: https://www.merckvetmanual.com/pharmacology/antiseptics-and-disinfectants/surface-active-compounds-surfactants-as-antiseptics-and-disinfectants-for-use-with-animals
+Scraping articles:   1%|1         | 33/2915 [02:36<3:30:37,  4.38s/it]Scraping article 34/2915: https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-urinary-system/pharmacotherapeutics-in-bacterial-urinary-tract-infections-in-animals
+Scraping articles:   1%|1         | 34/2915 [02:40<3:24:12,  4.25s/it]Scraping article 35/2915: https://www.merckvetmanual.com/dog-owners/eye-disorders-of-dogs/disorders-of-the-nasal-cavity-and-tear-ducts-in-dogs
+Scraping articles:   1%|1         | 35/2915 [02:45<3:22:14,  4.21s/it]Scraping article 36/2915: https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-respiratory-system/overview-of-systemic-pharmacotherapeutics-of-the-respiratory-system-in-animals
+Scraping articles:   1%|1         | 36/2915 [02:48<3:11:41,  4.00s/it]Scraping article 37/2915: https://www.merckvetmanual.com/digestive-system/diseases-of-the-mouth-in-small-animals/overview-of-diseases-of-the-mouth-in-small-animals
+Scraping articles:   1%|1         | 37/2915 [02:53<3:20:31,  4.18s/it]Scraping article 38/2915: https://www.merckvetmanual.com/dog-owners/behavior-of-dogs/behavior-problems-in-dogs
+Scraping articles:   1%|1         | 38/2915 [02:56<3:14:53,  4.06s/it]Scraping article 39/2915: https://www.merckvetmanual.com/special-pet-topics/health-and-the-human-animal-bond/pet-loss-and-grief
+Scraping articles:   1%|1         | 39/2915 [02:59<2:57:52,  3.71s/it]Scraping article 40/2915: https://www.merckvetmanual.com/pharmacology/pharmacology-introduction/overview-of-pharmacology
+Scraping articles:   1%|1         | 40/2915 [03:03<2:58:27,  3.72s/it]Scraping article 41/2915: https://www.merckvetmanual.com/dog-owners/disorders-affecting-multiple-body-systems-of-dogs/peritonitis-in-dogs
+Scraping articles:   1%|1         | 41/2915 [03:06<2:49:51,  3.55s/it]Scraping article 42/2915: https://www.merckvetmanual.com/clinical-pathology-and-procedures/meat-inspection/general-condemnation-of-production-animals
+Scraping articles:   1%|1         | 42/2915 [03:09<2:43:46,  3.42s/it]Scraping article 43/2915: https://www.merckvetmanual.com/reproductive-system/abortion-in-large-animals/overview-of-abortion-in-large-animals
+Scraping articles:   1%|1         | 43/2915 [03:14<2:56:45,  3.69s/it]Scraping article 44/2915: https://www.merckvetmanual.com/clinical-pathology-and-procedures/diagnostic-imaging/overview-of-diagnostic-imaging-of-animals
+Scraping articles:   2%|1         | 44/2915 [03:18<3:06:16,  3.89s/it]Scraping article 45/2915: https://www.merckvetmanual.com/metabolic-disorders/fatigue-and-exercise-in-horses/fatigue-during-high-intensity-exercise-in-horses
+Scraping articles:   2%|1         | 44/2915 [03:18<3:35:53,  4.51s/it]
+❌ An unexpected error occurred: Page.goto: net::ERR_ABORTED at https://www.merckvetmanual.com/metabolic-disorders/fatigue-and-exercise-in-horses/fatigue-during-high-intensity-exercise-in-horses
+Call log:
+  - navigating to "https://www.merckvetmanual.com/metabolic-disorders/fatigue-and-exercise-in-horses/fatigue-during-high-intensity-exercise-in-horses", waiting until "domcontentloaded"
+
+✅ Scraped 44 new articles. Total: 57.

@@ -1,0 +1,7 @@
+Scraping articles
+:   0%|          | 0/2738 [00:00<?, ?it/s]Scraping article 1/2738: https://www.merckvetmanual.com/special-pet-topics/poisoning/diagnosis-of-poisoning
+HTTP error 403, requests are being blocked, terminating script for now.
+Scraping articles
+:   0%|          | 0/2738 [00:00<?, ?it/s]
+❌ Access denied to https://www.merckvetmanual.com/special-pet-topics/poisoning/diagnosis-of-poisoning.
+✅ Scraped 0 new articles. Total: 190.

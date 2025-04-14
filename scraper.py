@@ -1,11 +1,44 @@
 import asyncio
 import json
 from playwright.async_api import async_playwright
-from json_tree_viewer import save_structure_to_file
 import argparse
+import os
+import datetime
+from tqdm import tqdm
+
+class AccessDenied(Exception):
+    def __init__(self, url):
+        super().__init__(f"403 Forbidden: Access denied to {url}")
+        self.url = url
+
+sleep_time = 180 
 import sys
+import os
+from datetime import datetime
 
+class DualLogger:
+    def __init__(self, log_path):
+        self.terminal = sys.stdout
+        self.log = open(log_path, "a", encoding="utf-8")
 
+    def write(self, message):
+        self.terminal.write(message)
+        self.log.write(message)
+
+    def flush(self):
+        # This is needed for compatibility with Python's logging system
+        self.terminal.flush()
+        self.log.flush()
+
+# Create logs folder if not exist
+os.makedirs("logs", exist_ok=True)
+
+# Generate timestamped filename
+timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+log_file = f"logs/scraper_log_{timestamp}.txt"
+
+sys.stdout = DualLogger(log_file)
+sys.stderr = sys.stdout  # This sends error messages to the same log
 """
     Initializes the browser using Playwright with headless or non-headless mode.
     Returns the browser context and page object.
@@ -15,19 +48,15 @@ async def init_browser(headless=True):
     browser = await playwright.chromium.launch(headless=headless)
     context = await browser.new_context(viewport={"width": 1200, "height": 800})
     page = await context.new_page()
-    return playwright, browser, page
+    # Block images, styles, fonts etc. to speed up scraping
+    async def block_resource(route, request):
+        if request.resource_type in ["image", "stylesheet", "font"]:
+            await route.abort()
+        else:
+            await route.continue_()
 
-"""
-    Tries to accept the cookie banner if it exists on the page.
-    Prevents interference with future button clicks.
-"""
-async def accept_cookies(page):
-    try:
-        await page.click("#onetrust-accept-btn-handler", timeout=5000)
-        print("Accepted cookies.")
-        await page.wait_for_timeout(1000)
-    except Exception as e:
-        print("No cookie banner found or could not click it:", e)
+    await page.route("**/*", block_resource)
+    return playwright, browser, page
 
 
 async def scrape_article(page, url):
@@ -36,86 +65,34 @@ async def scrape_article(page, url):
         Returns a dictionary with 'name', 'link', and 'content'.
     """
     try:
-        await page.goto(url, wait_until="domcontentloaded")
-
+        response = await page.goto(url, wait_until="domcontentloaded")
+        if response.status == 403: 
+            print(f"HTTP error 403, requests are being blocked, waiting for {sleep_time} seconds before retrying...")
+            await asyncio.sleep(sleep_time)  
+            response = await page.goto(url, wait_until="domcontentloaded")
+            if response.status == 403: 
+                print(f"HTTP error 403, requests are being blocked, terminating script for now.")
+                raise AccessDenied(url)
         # Extract the title
         title_element = await page.query_selector("h1")
         title = await title_element.inner_text() if title_element else "Untitled"
 
         # Extract the content
         main_content = await page.query_selector('[data-testid="topic-main-content"]')
+        if main_content is None:
+            print(f"❌ No main content found at {url}.")
+            return None
         content = await element_to_markdown(main_content)
-
-        return {
-            "name": title.strip(),
-            "link": url,
-            "content": content
-        }
-    except Exception as e:
-        print(f"⚠️ Failed to scrape {url}: {e}")
+    except:
+        print(f"❌ Failed to scrape article at {url}.")
+        await asyncio.sleep(sleep_time) 
         return None
-"""
-async def extract_introduction(element):
-    children = await element.query_selector_all(':scope > *')
-    content = ""
-    
-    for child in children:
-        tag = await child.evaluate('(el) => el.tagName')
+    return {
+        "name": title.strip(),
+        "link": url,
+        "content": content
+    }
 
-        if tag == "SECTION":
-            return content.strip()  # Stop at the first section
-
-        elif tag == "P":
-            if not await child.get_attribute("data-testid") == "topicPara":
-                continue
-            text = await child.inner_text()
-            text = text.strip()
-            if text:
-                content += text + "\n"
-
-        elif tag == "DIV":
-            data_testid = await element.get_attribute("data-testid")
-            class_name = await element.get_attribute("class") or ""
-            if "Figure" in class_name or data_testid == "baseillustrative":
-                continue
-            content += await extract_introduction(child)
-    return content.strip()
-
-async def get_element_depth(elem, root):
-    return await elem.evaluate(
-        "(el, root) => { let d = 0; while (el && el !== root) { d++; el = el.parentElement; } return d; }",
-        root
-    )
-
-
-async def parse_element(element, title=None):
-    content_dict = {}
-
-    # Optional: Store section title
-    if not title: 
-        first_heading = await element.query_selector('h1, h2, h3, h4, h5, h6')
-        title = (await first_heading.inner_text()).strip() if first_heading else "Untitled"
-    content_dict["title"] = title
-
-    # Fix: Await this!
-    content_dict["content"] = await extract_introduction(element)
-
-    # Parse subsections recursively
-    sections = await element.query_selector_all('section')    
-    if not sections:
-        return content_dict
-    reference_depth = await get_element_depth(sections[0], element)
-
-    for section in sections:
-        depth = await get_element_depth(section, element)
-        if depth != reference_depth:
-            continue
-        section_content = await parse_element(section)
-        section_title = section_content.get("title", "Untitled Section")
-        content_dict[section_title] = section_content
-
-    return content_dict
-"""
 
 async def element_to_markdown(element):
     children = await element.query_selector_all(":scope > *")
@@ -158,44 +135,69 @@ async def element_to_markdown(element):
 
     return markdown.strip()
 
-async def save_to_json(data, filename="articles.json"):
-    """
-        Saves a list of articles to a JSON file.
-    """
-    with open(filename, "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=2, ensure_ascii=False)
-    print(f"✅ Saved {len(data)} articles to {filename}")
-
 """
     Main function to launch browser, navigate to site, and run actions.
 """
 async def main():
     playwright, browser, page = await init_browser(headless=True)
 
-    with open('./data/content_urls.txt', "r", encoding="utf-8") as f:
-        urls = set(line.strip() for line in f if line.strip())
-    '''
-    result = await scrape_article(page, "https://www.merckvetmanual.com/dog-owners/description-and-physical-characteristics-of-dogs/description-and-physical-characteristics-of-dogs")
-    with open('test.md', 'w', encoding='utf-8') as f:
-        f.write(result['content'])
-    print(result)
-    return
-    '''
+    size_to_scrape = os.path.getsize('./data/to_scrape.txt')
+    if size_to_scrape == 0:
+        with open('./data/content_urls.txt', "r", encoding="utf-8") as f:
+            urls = set(line.strip() for line in f if line.strip())
+    else: 
+        with open('./data/to_scrape.txt', "r", encoding="utf-8") as f:
+            urls = set(line.strip() for line in f if line.strip())
+    to_scrape = set(urls)  # copy to track what still needs to be scraped
     articles = []
-    for i, url in enumerate(urls):
-        print(f"Scraping article {i + 1}/{len(urls)}: {url}")
-        article = await scrape_article(page, url)
-        if not article:
-            print(f"⚠️ Failed to scrape article {i + 1}")
-            continue
-        articles.append(article)
-        
 
-    await save_to_json(articles, filename=f"test.json")
-    save_structure_to_file(f"test.json")
-
-    await browser.close()
-    await playwright.stop()
-
+    try:
+        for i, url in enumerate(tqdm(urls, desc="Scraping articles\n")):
+            print('\n')
+            #print(f"\nScraping article {i + 1}/{len(urls)}: {url}")
+            article = await scrape_article(page, url)
+            if not article:
+                print(f"⚠️ Failed to scrape article {i + 1}")
+                continue
+            articles.append(article)
+            to_scrape.remove(url)
+            #if i%30 == 0:
+            #    await asyncio.sleep(sleep_time)  
+    except KeyboardInterrupt:
+        print("❌ Interrupted by user. Saving progress...")
+    except AccessDenied as e:
+        print(f"❌ Access denied to {e.url}.")
+    except Exception as e:
+        print(f"❌ An unexpected error occurred: {e}")
+    finally:
+        try:
+            with open('./data/to_scrape.txt', "w", encoding="utf-8") as f:
+                for url in to_scrape:
+                    f.write(url + "\n")
+            # Update the merck-articles.json file with the new articles
+            if os.path.exists('./data/merck-articles.json'):
+                with open('./data/merck-articles.json', "r", encoding="utf-8") as f:
+                    merck_articles = json.load(f)
+            else:
+                merck_articles = []
+            merck_articles.extend(articles)
+            with open("./data/merck-articles.json", "w", encoding="utf-8") as f:
+                json.dump(merck_articles, f, ensure_ascii=False, indent=4)
+            print(f"✅ Scraped {len(articles)} new articles. Total: {len(merck_articles)}.")
+        except Exception as e:
+            print(f"⚠️ Failed to save progress cleanly: {e}")
+        finally:
+            # Only try to close if initialized
+            if browser:
+                try:
+                    await browser.close()
+                except Exception as e:
+                    print(f"⚠️ Error while closing browser: {e}")
+            if playwright:
+                try:
+                    await playwright.stop()
+                except Exception as e:
+                    print(f"⚠️ Error while stopping playwright: {e}")
+   
 if __name__ == "__main__":
     asyncio.run(main())

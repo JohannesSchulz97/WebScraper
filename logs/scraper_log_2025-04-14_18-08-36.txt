@@ -1,0 +1,14 @@
+Scraping articles
+:   0%|          | 0/2782 [00:00<?, ?it/s]Scraping article 1/2782: https://www.merckvetmanual.com/musculoskeletal-system/lameness-in-small-animals/pain-management-in-small-animals-with-lameness
+Scraping articles
+:   0%|          | 1/2782 [00:14<11:19:28, 14.66s/it]Scraping article 2/2782: https://www.merckvetmanual.com/circulatory-system/cardiomyopathy-in-dogs-and-cats/duchenne-cardiomyopathy-in-dogs-and-cats
+Scraping articles
+:   0%|          | 2/2782 [00:21<7:55:01, 10.25s/it] Scraping article 3/2782: https://www.merckvetmanual.com/integumentary-system/helminths-of-the-skin/stephanofilariasis-in-cattle
+Scraping articles
+:   0%|          | 3/2782 [00:28<6:36:09,  8.55s/it]Scraping article 4/2782: https://www.merckvetmanual.com/cat-owners/disorders-affecting-multiple-body-systems-of-cats/feline-immunodeficiency-virus-fiv
+Scraping articles
+:   0%|          | 4/2782 [00:33<5:41:29,  7.38s/it]Scraping article 5/2782: https://www.merckvetmanual.com/poultry/disorders-of-the-skeletal-system-in-poultry/noninfectious-skeletal-disorders-in-poultry-broilers
+Scraping articles
+:   0%|          | 4/2782 [00:42<8:14:40, 10.68s/it]
+❌ An unexpected error occurred: 'NoneType' object has no attribute 'query_selector_all'
+✅ Scraped 4 new articles. Total: 150.

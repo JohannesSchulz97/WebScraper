@@ -1,0 +1,44 @@
+Scraping articles:   0%|          | 0/2928 [00:00<?, ?it/s]Scraping article 1/2928: https://www.merckvetmanual.com/ear-disorders/diseases-of-the-pinna/aural-contact-dermatitis-in-animals
+Scraping articles:   0%|          | 1/2928 [00:16<13:33:07, 16.67s/it]Scraping article 2/2928: https://www.merckvetmanual.com/toxicology/cyanide-poisoning/cyanide-poisoning-in-animals
+Scraping articles:   0%|          | 2/2928 [00:20<7:12:19,  8.87s/it] Scraping article 3/2928: https://www.merckvetmanual.com/cat-owners/blood-disorders-of-cats/bleeding-disorders-of-cats
+Scraping articles:   0%|          | 3/2928 [00:22<4:57:04,  6.09s/it]Scraping article 4/2928: https://www.merckvetmanual.com/clinical-pathology-and-procedures/diagnostic-procedures-for-the-private-practice-laboratory/clinical-biochemistry
+Scraping articles:   0%|          | 4/2928 [00:26<4:01:08,  4.95s/it]Scraping article 5/2928: https://www.merckvetmanual.com/special-pet-topics/drugs-and-vaccines/drugs-used-to-treat-brain-spinal-cord-and-nerve-disorders
+Scraping articles:   0%|          | 5/2928 [00:29<3:37:19,  4.46s/it]Scraping article 6/2928: https://www.merckvetmanual.com/ear-disorders/otitis-externa/otitis-externa-in-animals
+Scraping articles:   0%|          | 6/2928 [00:32<3:18:41,  4.08s/it]Scraping article 7/2928: https://www.merckvetmanual.com/musculoskeletal-system/myopathies-in-small-animals/malignant-hyperthermia-in-dogs
+Scraping articles:   0%|          | 7/2928 [00:35<2:54:26,  3.58s/it]Scraping article 8/2928: https://www.merckvetmanual.com/poultry/bordetellosis/bordetellosis-in-poultry
+Scraping articles:   0%|          | 8/2928 [00:38<2:51:02,  3.51s/it]Scraping article 9/2928: https://www.merckvetmanual.com/management-and-nutrition/management-of-reproduction-goats/breeding-in-goats
+Scraping articles:   0%|          | 9/2928 [00:41<2:42:36,  3.34s/it]Scraping article 10/2928: https://www.merckvetmanual.com/cat-owners/bone-joint-and-muscle-disorders-of-cats/joint-disorders-in-cats
+Scraping articles:   0%|          | 10/2928 [00:44<2:29:28,  3.07s/it]Scraping article 11/2928: https://www.merckvetmanual.com/exotic-and-laboratory-animals/ratites/management-of-ratites
+Scraping articles:   0%|          | 10/2928 [00:45<3:39:55,  4.52s/it]
+✅ Scraped 10 new articles. Total: 10.
+Traceback (most recent call last):
+  File "/Users/johannes/ML Projects/WebScraper/scraper.py", line 178, in <module>
+    asyncio.run(main())
+    ~~~~~~~~~~~^^^^^^^^
+  File "/opt/anaconda3/envs/webscraper/lib/python3.13/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "/opt/anaconda3/envs/webscraper/lib/python3.13/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/opt/anaconda3/envs/webscraper/lib/python3.13/asyncio/base_events.py", line 719, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/Users/johannes/ML Projects/WebScraper/scraper.py", line 174, in main
+    await browser.close()
+  File "/opt/anaconda3/envs/webscraper/lib/python3.13/site-packages/playwright/async_api/_generated.py", line 14222, in close
+    return mapping.from_maybe_impl(await self._impl_obj.close(reason=reason))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/webscraper/lib/python3.13/site-packages/playwright/_impl/_browser.py", line 195, in close
+    raise e
+  File "/opt/anaconda3/envs/webscraper/lib/python3.13/site-packages/playwright/_impl/_browser.py", line 192, in close
+    await self._channel.send("close", {"reason": reason})
+  File "/opt/anaconda3/envs/webscraper/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 61, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "/opt/anaconda3/envs/webscraper/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 528, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+Exception: Browser.close: Connection closed while reading from the driver

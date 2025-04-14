@@ -1,0 +1,277 @@
+Scraping articles
+:   0%|          | 0/2369 [00:00<?, ?it/s]
+
+Scraping articles
+:   0%|          | 1/2369 [00:05<3:18:14,  5.02s/it]
+
+Scraping articles
+:   0%|          | 2/2369 [00:16<5:37:29,  8.55s/it]
+
+Scraping articles
+:   0%|          | 3/2369 [00:23<5:26:23,  8.28s/it]
+
+Scraping articles
+:   0%|          | 4/2369 [00:28<4:34:33,  6.97s/it]
+
+Scraping articles
+:   0%|          | 5/2369 [00:33<4:00:09,  6.10s/it]
+
+Scraping articles
+:   0%|          | 6/2369 [00:38<3:42:15,  5.64s/it]
+
+Scraping articles
+:   0%|          | 7/2369 [00:42<3:25:55,  5.23s/it]
+
+Scraping articles
+:   0%|          | 8/2369 [00:45<3:00:25,  4.59s/it]
+
+Scraping articles
+:   0%|          | 9/2369 [00:49<2:43:36,  4.16s/it]
+
+Scraping articles
+:   0%|          | 10/2369 [00:53<2:41:53,  4.12s/it]
+
+Scraping articles
+:   0%|          | 11/2369 [00:56<2:31:48,  3.86s/it]
+
+Scraping articles
+:   1%|          | 12/2369 [00:59<2:23:01,  3.64s/it]
+
+Scraping articles
+:   1%|          | 13/2369 [01:03<2:29:25,  3.81s/it]
+
+Scraping articles
+:   1%|          | 14/2369 [01:08<2:42:27,  4.14s/it]
+
+Scraping articles
+:   1%|          | 15/2369 [01:13<2:56:53,  4.51s/it]
+
+Scraping articles
+:   1%|          | 16/2369 [01:19<3:10:47,  4.87s/it]
+
+❌ No main content found at https://www.merckvetmanual.com/pharmacology/anthelmintics/resistance-to-anthelmintics.
+⚠️ Failed to scrape article 17
+Scraping articles
+:   1%|          | 17/2369 [01:24<3:12:50,  4.92s/it]
+
+Scraping articles
+:   1%|          | 18/2369 [01:29<3:07:29,  4.79s/it]
+
+Scraping articles
+:   1%|          | 19/2369 [01:33<3:04:21,  4.71s/it]
+
+Scraping articles
+:   1%|          | 20/2369 [01:36<2:43:55,  4.19s/it]
+
+Scraping articles
+:   1%|          | 21/2369 [01:40<2:41:22,  4.12s/it]
+
+Scraping articles
+:   1%|          | 22/2369 [01:43<2:31:24,  3.87s/it]
+
+Scraping articles
+:   1%|          | 23/2369 [01:48<2:38:35,  4.06s/it]
+
+Scraping articles
+:   1%|1         | 24/2369 [01:53<2:44:44,  4.22s/it]
+
+Scraping articles
+:   1%|1         | 25/2369 [01:56<2:32:11,  3.90s/it]
+
+Scraping articles
+:   1%|1         | 26/2369 [02:00<2:40:51,  4.12s/it]
+
+Scraping articles
+:   1%|1         | 27/2369 [02:05<2:44:47,  4.22s/it]
+
+Scraping articles
+:   1%|1         | 28/2369 [02:12<3:19:13,  5.11s/it]
+
+Scraping articles
+:   1%|1         | 29/2369 [02:16<3:07:01,  4.80s/it]
+
+Scraping articles
+:   1%|1         | 30/2369 [02:21<3:09:39,  4.87s/it]
+
+Scraping articles
+:   1%|1         | 31/2369 [02:25<2:56:58,  4.54s/it]
+
+Scraping articles
+:   1%|1         | 32/2369 [02:29<2:49:08,  4.34s/it]
+
+Scraping articles
+:   1%|1         | 33/2369 [02:32<2:36:03,  4.01s/it]
+
+Scraping articles
+:   1%|1         | 34/2369 [02:35<2:22:50,  3.67s/it]
+
+Scraping articles
+:   1%|1         | 35/2369 [02:41<2:55:41,  4.52s/it]
+
+Scraping articles
+:   2%|1         | 36/2369 [02:46<3:03:13,  4.71s/it]
+
+Scraping articles
+:   2%|1         | 37/2369 [02:50<2:48:23,  4.33s/it]
+
+Scraping articles
+:   2%|1         | 38/2369 [02:53<2:35:29,  4.00s/it]
+
+Scraping articles
+:   2%|1         | 39/2369 [02:58<2:41:12,  4.15s/it]
+
+Scraping articles
+:   2%|1         | 40/2369 [03:02<2:43:58,  4.22s/it]
+
+Scraping articles
+:   2%|1         | 41/2369 [03:05<2:34:29,  3.98s/it]
+
+Scraping articles
+:   2%|1         | 42/2369 [03:10<2:38:39,  4.09s/it]
+
+Scraping articles
+:   2%|1         | 43/2369 [03:14<2:40:59,  4.15s/it]
+
+Scraping articles
+:   2%|1         | 44/2369 [03:15<1:57:16,  3.03s/it]
+
+Scraping articles
+:   2%|1         | 45/2369 [03:18<2:04:10,  3.21s/it]
+
+Scraping articles
+:   2%|1         | 46/2369 [03:20<1:50:13,  2.85s/it]
+
+HTTP error 403, requests are being blocked, waiting for 180 seconds before retrying...
+Scraping articles
+:   2%|1         | 47/2369 [06:25<37:06:08, 57.52s/it]
+
+Scraping articles
+:   2%|2         | 48/2369 [06:30<26:57:01, 41.80s/it]
+
+Scraping articles
+:   2%|2         | 49/2369 [06:34<19:34:53, 30.39s/it]
+
+Scraping articles
+:   2%|2         | 50/2369 [06:38<14:32:43, 22.58s/it]
+
+Scraping articles
+:   2%|2         | 51/2369 [06:45<11:21:05, 17.63s/it]
+
+Scraping articles
+:   2%|2         | 52/2369 [06:48<8:35:18, 13.34s/it] 
+
+Scraping articles
+:   2%|2         | 53/2369 [06:51<6:39:40, 10.35s/it]
+
+Scraping articles
+:   2%|2         | 54/2369 [06:57<5:43:55,  8.91s/it]
+
+Scraping articles
+:   2%|2         | 55/2369 [07:01<4:46:36,  7.43s/it]
+
+Scraping articles
+:   2%|2         | 56/2369 [07:05<4:08:38,  6.45s/it]
+
+Scraping articles
+:   2%|2         | 57/2369 [07:09<3:36:18,  5.61s/it]
+
+Scraping articles
+:   2%|2         | 58/2369 [07:14<3:27:52,  5.40s/it]
+
+Scraping articles
+:   2%|2         | 59/2369 [07:18<3:20:45,  5.21s/it]
+
+Scraping articles
+:   3%|2         | 60/2369 [07:24<3:21:01,  5.22s/it]
+
+Scraping articles
+:   3%|2         | 61/2369 [07:28<3:06:42,  4.85s/it]
+
+Scraping articles
+:   3%|2         | 62/2369 [07:32<3:04:44,  4.80s/it]
+
+Scraping articles
+:   3%|2         | 63/2369 [07:37<3:00:53,  4.71s/it]
+
+Scraping articles
+:   3%|2         | 64/2369 [07:41<3:00:23,  4.70s/it]
+
+Scraping articles
+:   3%|2         | 65/2369 [07:45<2:51:31,  4.47s/it]
+
+Scraping articles
+:   3%|2         | 66/2369 [07:49<2:48:10,  4.38s/it]
+
+Scraping articles
+:   3%|2         | 67/2369 [07:55<3:02:04,  4.75s/it]
+
+Scraping articles
+:   3%|2         | 68/2369 [07:59<2:58:08,  4.65s/it]
+
+Scraping articles
+:   3%|2         | 69/2369 [08:04<2:53:10,  4.52s/it]
+
+Scraping articles
+:   3%|2         | 70/2369 [08:07<2:40:46,  4.20s/it]
+
+Scraping articles
+:   3%|2         | 71/2369 [08:11<2:39:48,  4.17s/it]
+
+Scraping articles
+:   3%|3         | 72/2369 [08:15<2:37:45,  4.12s/it]
+
+Scraping articles
+:   3%|3         | 73/2369 [08:20<2:50:01,  4.44s/it]
+
+Scraping articles
+:   3%|3         | 74/2369 [08:24<2:38:50,  4.15s/it]
+
+Scraping articles
+:   3%|3         | 75/2369 [08:27<2:30:50,  3.95s/it]
+
+Scraping articles
+:   3%|3         | 76/2369 [08:32<2:35:13,  4.06s/it]
+
+Scraping articles
+:   3%|3         | 77/2369 [08:35<2:27:01,  3.85s/it]
+
+Scraping articles
+:   3%|3         | 78/2369 [08:40<2:34:02,  4.03s/it]
+
+Scraping articles
+:   3%|3         | 79/2369 [08:45<2:52:18,  4.51s/it]
+
+Scraping articles
+:   3%|3         | 80/2369 [08:48<2:37:40,  4.13s/it]
+
+Scraping articles
+:   3%|3         | 81/2369 [08:52<2:32:30,  4.00s/it]
+
+Scraping articles
+:   3%|3         | 82/2369 [08:56<2:35:35,  4.08s/it]
+
+Scraping articles
+:   4%|3         | 83/2369 [09:01<2:44:56,  4.33s/it]
+
+Scraping articles
+:   4%|3         | 84/2369 [09:06<2:49:24,  4.45s/it]
+
+Scraping articles
+:   4%|3         | 85/2369 [09:10<2:46:06,  4.36s/it]
+
+Scraping articles
+:   4%|3         | 86/2369 [09:15<2:48:13,  4.42s/it]
+
+Scraping articles
+:   4%|3         | 87/2369 [09:20<2:57:22,  4.66s/it]
+
+Scraping articles
+:   4%|3         | 88/2369 [09:25<2:58:25,  4.69s/it]
+
+Scraping articles
+:   4%|3         | 88/2369 [09:30<4:06:20,  6.48s/it]
+❌ An unexpected error occurred: ElementHandle.get_attribute: Execution context was destroyed, most likely because of a navigation
+Call log:
+  - waiting for locator(":scope")
+
+✅ Scraped 87 new articles. Total: 646.

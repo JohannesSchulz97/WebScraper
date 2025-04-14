@@ -1,0 +1,232 @@
+Scraping articles
+:   0%|          | 0/2195 [00:00<?, ?it/s]
+
+Scraping articles
+:   0%|          | 1/2195 [00:03<2:21:54,  3.88s/it]
+
+Scraping articles
+:   0%|          | 2/2195 [00:08<2:38:50,  4.35s/it]
+
+Scraping articles
+:   0%|          | 3/2195 [00:13<2:43:52,  4.49s/it]
+
+❌ No main content found at https://www.merckvetmanual.com/reproductive-system/reproductive-diseases-of-the-male-small-animal/priapism-in-dogs-and-cats.
+⚠️ Failed to scrape article 4
+Scraping articles
+:   0%|          | 4/2195 [00:17<2:42:58,  4.46s/it]
+
+❌ No main content found at https://www.merckvetmanual.com/urinary-system/infectious-diseases-of-the-urinary-system-in-small-animals/giant-kidney-worm-infection-in-mink-and-dogs.
+⚠️ Failed to scrape article 5
+Scraping articles
+:   0%|          | 5/2195 [00:23<3:03:54,  5.04s/it]
+
+Scraping articles
+:   0%|          | 6/2195 [00:27<2:52:03,  4.72s/it]
+
+Scraping articles
+:   0%|          | 7/2195 [00:32<2:47:58,  4.61s/it]
+
+Scraping articles
+:   0%|          | 8/2195 [00:37<2:51:48,  4.71s/it]
+
+Scraping articles
+:   0%|          | 9/2195 [00:41<2:45:06,  4.53s/it]
+
+Scraping articles
+:   0%|          | 10/2195 [00:45<2:42:06,  4.45s/it]
+
+Scraping articles
+:   1%|          | 11/2195 [00:49<2:40:59,  4.42s/it]
+
+Scraping articles
+:   1%|          | 12/2195 [00:54<2:44:15,  4.51s/it]
+
+Scraping articles
+:   1%|          | 13/2195 [00:57<2:30:48,  4.15s/it]
+
+Scraping articles
+:   1%|          | 14/2195 [01:02<2:32:49,  4.20s/it]
+
+Scraping articles
+:   1%|          | 15/2195 [01:05<2:21:18,  3.89s/it]
+
+Scraping articles
+:   1%|          | 16/2195 [01:08<2:12:38,  3.65s/it]
+
+Scraping articles
+:   1%|          | 17/2195 [01:13<2:23:56,  3.97s/it]
+
+Scraping articles
+:   1%|          | 18/2195 [01:18<2:35:15,  4.28s/it]
+
+Scraping articles
+:   1%|          | 19/2195 [01:22<2:36:47,  4.32s/it]
+
+Scraping articles
+:   1%|          | 20/2195 [01:26<2:30:02,  4.14s/it]
+
+Scraping articles
+:   1%|          | 21/2195 [01:31<2:36:13,  4.31s/it]
+
+Scraping articles
+:   1%|1         | 22/2195 [01:36<2:44:28,  4.54s/it]
+
+Scraping articles
+:   1%|1         | 23/2195 [01:40<2:45:14,  4.56s/it]
+
+Scraping articles
+:   1%|1         | 24/2195 [01:44<2:41:51,  4.47s/it]
+
+Scraping articles
+:   1%|1         | 25/2195 [01:48<2:33:19,  4.24s/it]
+
+Scraping articles
+:   1%|1         | 26/2195 [01:52<2:29:53,  4.15s/it]
+
+Scraping articles
+:   1%|1         | 27/2195 [01:57<2:37:28,  4.36s/it]
+
+Scraping articles
+:   1%|1         | 28/2195 [02:01<2:32:50,  4.23s/it]
+
+❌ Failed to scrape article at https://www.merckvetmanual.com/bird-owners/selecting-and-providing-a-home-for-a-pet-bird/introduction-to-selecting-and-providing-a-home-for-a-pet-bird.
+⚠️ Failed to scrape article 29
+Scraping articles
+:   1%|1         | 29/2195 [06:09<46:28:31, 77.24s/it]
+
+Scraping articles
+:   1%|1         | 30/2195 [06:14<33:28:14, 55.66s/it]
+
+Scraping articles
+:   1%|1         | 31/2195 [06:17<24:04:05, 40.04s/it]
+
+Scraping articles
+:   1%|1         | 32/2195 [06:22<17:40:22, 29.41s/it]
+
+Scraping articles
+:   2%|1         | 33/2195 [06:26<12:59:47, 21.64s/it]
+
+Scraping articles
+:   2%|1         | 34/2195 [06:30<9:52:18, 16.45s/it] 
+
+Scraping articles
+:   2%|1         | 35/2195 [06:33<7:33:29, 12.60s/it]
+
+Scraping articles
+:   2%|1         | 36/2195 [06:37<5:56:01,  9.89s/it]
+
+Scraping articles
+:   2%|1         | 37/2195 [06:41<4:56:03,  8.23s/it]
+
+Scraping articles
+:   2%|1         | 38/2195 [06:45<4:01:58,  6.73s/it]
+
+Scraping articles
+:   2%|1         | 39/2195 [06:49<3:35:29,  6.00s/it]
+
+Scraping articles
+:   2%|1         | 40/2195 [06:52<3:06:31,  5.19s/it]
+
+Scraping articles
+:   2%|1         | 41/2195 [06:59<3:21:13,  5.60s/it]
+
+Scraping articles
+:   2%|1         | 42/2195 [07:05<3:27:15,  5.78s/it]
+
+Scraping articles
+:   2%|1         | 43/2195 [07:08<3:02:17,  5.08s/it]
+
+Scraping articles
+:   2%|2         | 44/2195 [07:14<3:08:07,  5.25s/it]
+
+Scraping articles
+:   2%|2         | 45/2195 [07:18<2:48:37,  4.71s/it]
+
+Scraping articles
+:   2%|2         | 46/2195 [07:22<2:46:08,  4.64s/it]
+
+Scraping articles
+:   2%|2         | 47/2195 [07:25<2:31:21,  4.23s/it]
+
+Scraping articles
+:   2%|2         | 48/2195 [07:29<2:25:09,  4.06s/it]
+
+Scraping articles
+:   2%|2         | 49/2195 [07:32<2:14:15,  3.75s/it]
+
+Scraping articles
+:   2%|2         | 50/2195 [07:35<2:06:11,  3.53s/it]
+
+Scraping articles
+:   2%|2         | 51/2195 [07:39<2:08:30,  3.60s/it]
+
+Scraping articles
+:   2%|2         | 52/2195 [07:44<2:21:12,  3.95s/it]
+
+❌ Failed to scrape article at https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquaculture/therapeutic-considerations-in-aquaculture.
+⚠️ Failed to scrape article 53
+Scraping articles
+:   2%|2         | 53/2195 [12:03<47:57:11, 80.59s/it]
+
+❌ Failed to scrape article at https://www.merckvetmanual.com/behavior/behavioral-medicine-introduction/treatment-of-behavior-problems-in-animals.
+Scraping articles
+:   2%|2         | 53/2195 [44:09<29:44:23, 49.98s/it]
+✅ Scraped 49 new articles. Total: 782.
+⚠️ Error while closing browser: Browser.close: Connection closed while reading from the driver
+Traceback (most recent call last):
+  File "/Users/johannes/ML Projects/WebScraper/scraper.py", line 68, in scrape_article
+    response = await page.goto(url, wait_until="domcontentloaded")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/webscraper/lib/python3.13/site-packages/playwright/async_api/_generated.py", line 8987, in goto
+    await self._impl_obj.goto(
+        url=url, timeout=timeout, waitUntil=wait_until, referer=referer
+    )
+  File "/opt/anaconda3/envs/webscraper/lib/python3.13/site-packages/playwright/_impl/_page.py", line 552, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/webscraper/lib/python3.13/site-packages/playwright/_impl/_frame.py", line 145, in goto
+    await self._channel.send("goto", locals_to_params(locals()))
+  File "/opt/anaconda3/envs/webscraper/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 61, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "/opt/anaconda3/envs/webscraper/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 528, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.merckvetmanual.com/behavior/behavioral-medicine-introduction/treatment-of-behavior-problems-in-animals", waiting until "domcontentloaded"
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/webscraper/lib/python3.13/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/opt/anaconda3/envs/webscraper/lib/python3.13/asyncio/base_events.py", line 719, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/Users/johannes/ML Projects/WebScraper/scraper.py", line 158, in main
+    article = await scrape_article(page, url)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/johannes/ML Projects/WebScraper/scraper.py", line 88, in scrape_article
+    await asyncio.sleep(sleep_time)
+  File "/opt/anaconda3/envs/webscraper/lib/python3.13/asyncio/tasks.py", line 718, in sleep
+    return await future
+           ^^^^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/johannes/ML Projects/WebScraper/scraper.py", line 203, in <module>
+    asyncio.run(main())
+    ~~~~~~~~~~~^^^^^^^^
+  File "/opt/anaconda3/envs/webscraper/lib/python3.13/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "/opt/anaconda3/envs/webscraper/lib/python3.13/asyncio/runners.py", line 123, in run
+    raise KeyboardInterrupt()
+KeyboardInterrupt

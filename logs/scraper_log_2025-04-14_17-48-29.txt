@@ -1,0 +1,48 @@
+Scraping articles:   0%|          | 0/2871 [00:00<?, ?it/s]Scraping article 1/2871: https://www.merckvetmanual.com/cat-owners/skin-disorders-of-cats/photosensitization-in-cats
+Scraping articles:   0%|          | 1/2871 [00:18<14:40:39, 18.41s/it]Scraping article 2/2871: https://www.merckvetmanual.com/pharmacology/vaccines-and-immunotherapy/vaccine-failure-and-other-adverse-events-in-animals
+Scraping articles:   0%|          | 2/2871 [00:27<10:15:46, 12.88s/it]Scraping article 3/2871: https://www.merckvetmanual.com/all-other-pets/amphibians/housing-for-amphibians
+Scraping articles:   0%|          | 3/2871 [00:33<7:56:11,  9.96s/it] Scraping article 4/2871: https://www.merckvetmanual.com/bird-owners/disorders-and-diseases-of-birds/digestive-disorders-of-pet-birds
+Scraping articles:   0%|          | 4/2871 [00:40<6:58:58,  8.77s/it]Scraping article 5/2871: https://www.merckvetmanual.com/cat-owners/skin-disorders-of-cats/ticks-of-cats
+Scraping articles:   0%|          | 5/2871 [00:47<6:18:06,  7.92s/it]Scraping article 6/2871: https://www.merckvetmanual.com/nervous-system/diseases-of-the-peripheral-nerves-and-neuromuscular-junction/nutritional-disorders-of-the-peripheral-nerves-and-neuromuscular-junction-in-animals
+Scraping articles:   0%|          | 6/2871 [00:51<5:25:45,  6.82s/it]Scraping article 7/2871: https://www.merckvetmanual.com/digestive-system/congenital-and-inherited-anomalies-involving-the-digestive-system/congenital-and-inherited-anomalies-of-the-teeth-in-animals
+Scraping articles:   0%|          | 7/2871 [00:59<5:34:06,  7.00s/it]Scraping article 8/2871: https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-muscular-system/overview-of-systemic-pharmacotherapeutics-of-the-muscular-system-in-animals
+Scraping articles:   0%|          | 8/2871 [01:05<5:28:58,  6.89s/it]Scraping article 9/2871: https://www.merckvetmanual.com/management-and-nutrition/integrative-complementary-and-alternative-veterinary-medicine/nutraceuticals-and-dietary-supplements-in-veterinary-patients
+Scraping articles:   0%|          | 9/2871 [01:12<5:20:57,  6.73s/it]Scraping article 10/2871: https://www.merckvetmanual.com/management-and-nutrition/nutrition-exotic-and-zoo-animals/nutrition-in-waterfowl
+Scraping articles:   0%|          | 10/2871 [01:19<5:20:11,  6.71s/it]Scraping article 11/2871: https://www.merckvetmanual.com/integumentary-system/tumors-of-the-skin-and-soft-tissues/overview-of-tumors-of-the-skin-and-soft-tissues-in-animals
+Scraping articles:   0%|          | 11/2871 [01:25<5:14:10,  6.59s/it]Scraping article 12/2871: https://www.merckvetmanual.com/dog-owners/disorders-affecting-multiple-body-systems-of-dogs/ehrlichiosis-and-related-infections-in-dogs
+Scraping articles:   0%|          | 12/2871 [01:30<4:51:14,  6.11s/it]Scraping article 13/2871: https://www.merckvetmanual.com/infectious-diseases/chlamydiosis/chlamydiosis-in-animals
+Scraping articles:   0%|          | 13/2871 [01:36<4:52:20,  6.14s/it]Scraping article 14/2871: https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-digestive-system/drug-disposition-in-the-ruminoreticulum
+Scraping articles:   0%|          | 14/2871 [01:42<4:47:21,  6.03s/it]Scraping article 15/2871: https://www.merckvetmanual.com/management-and-nutrition/nutrition-exotic-and-zoo-animals/nutrition-in-snakes
+Scraping articles:   1%|          | 15/2871 [01:48<4:53:50,  6.17s/it]Scraping article 16/2871: https://www.merckvetmanual.com/poultry/disorders-of-the-reproductive-system-in-poultry/prolapse-of-the-oviduct-in-poultry
+Scraping articles:   1%|          | 16/2871 [01:56<5:11:15,  6.54s/it]Scraping article 17/2871: https://www.merckvetmanual.com/musculoskeletal-system/lameness-in-horses/gastrocnemius-tendinitis-in-horses
+Scraping articles:   1%|          | 17/2871 [02:01<4:51:18,  6.12s/it]Scraping article 18/2871: https://www.merckvetmanual.com/poultry/disorders-of-the-skeletal-system-in-poultry/infectious-skeletal-disorders-in-poultry
+Scraping articles:   1%|          | 18/2871 [02:07<4:55:01,  6.20s/it]Scraping article 19/2871: https://www.merckvetmanual.com/all-other-pets/rabbits/introduction-to-rabbits
+Scraping articles:   1%|          | 19/2871 [02:14<5:07:58,  6.48s/it]Scraping article 20/2871: https://www.merckvetmanual.com/integumentary-system/food-allergy/cutaneous-food-allergy-in-animals
+Scraping articles:   1%|          | 20/2871 [02:21<5:06:17,  6.45s/it]Scraping article 21/2871: https://www.merckvetmanual.com/management-and-nutrition/management-of-the-neonate/sepsis-in-foals
+Scraping articles:   1%|          | 21/2871 [02:28<5:11:02,  6.55s/it]Scraping article 22/2871: https://www.merckvetmanual.com/special-pet-topics/poisoning/metaldehyde-poisoning
+Scraping articles:   1%|          | 22/2871 [02:34<5:03:18,  6.39s/it]Scraping article 23/2871: https://www.merckvetmanual.com/special-pet-topics/poisoning/cantharidin-poisoning-blister-beetle-poisoning
+Scraping articles:   1%|          | 23/2871 [02:39<4:55:23,  6.22s/it]Scraping article 24/2871: https://www.merckvetmanual.com/digestive-system/diseases-of-the-esophagus-in-small-animals/dilatation-of-the-esophagus-in-small-animals
+Scraping articles:   1%|          | 24/2871 [02:45<4:53:08,  6.18s/it]Scraping article 25/2871: https://www.merckvetmanual.com/public-health/occupational-safety-and-health/select-occupational-hazards-in-veterinary-medicine-and-minimization-strategies
+Scraping articles:   1%|          | 25/2871 [02:52<4:56:45,  6.26s/it]Scraping article 26/2871: https://www.merckvetmanual.com/musculoskeletal-system/myopathies-in-small-animals/fibrotic-myopathy-in-dogs-and-cats
+Scraping articles:   1%|          | 26/2871 [02:59<5:13:02,  6.60s/it]Scraping article 27/2871: https://www.merckvetmanual.com/musculoskeletal-system/lameness-in-goats/septic-arthritis-in-goats
+Scraping articles:   1%|          | 27/2871 [03:06<5:12:23,  6.59s/it]Scraping article 28/2871: https://www.merckvetmanual.com/exotic-and-laboratory-animals/mink/bacterial-diseases-of-mink
+Scraping articles:   1%|          | 28/2871 [03:12<5:01:25,  6.36s/it]Scraping article 29/2871: https://www.merckvetmanual.com/special-pet-topics/poisoning/ethylene-glycol-antifreeze-poisoning
+Scraping articles:   1%|1         | 29/2871 [03:17<4:45:13,  6.02s/it]Scraping article 30/2871: https://www.merckvetmanual.com/cat-owners/disorders-affecting-multiple-body-systems-of-cats/lyme-disease-lyme-borreliosis-in-cats
+Scraping articles:   1%|1         | 30/2871 [03:22<4:37:48,  5.87s/it]Scraping article 31/2871: https://www.merckvetmanual.com/special-subjects/shelter-medicine/veterinary-medicine-within-the-animal-shelter
+Scraping articles:   1%|1         | 31/2871 [03:29<4:43:33,  5.99s/it]Scraping article 32/2871: https://www.merckvetmanual.com/management-and-nutrition/hormonal-control-of-estrus/hormonal-control-of-estrus-in-cattle
+Scraping articles:   1%|1         | 32/2871 [03:36<5:03:21,  6.41s/it]Scraping article 33/2871: https://www.merckvetmanual.com/generalized-conditions/overview-of-tuberculosis-in-animals/overview-of-tuberculosis-in-animals
+Scraping articles:   1%|1         | 33/2871 [03:46<5:49:30,  7.39s/it]Scraping article 34/2871: https://www.merckvetmanual.com/poultry/miscellaneous-conditions-of-poultry/ascites-syndrome-in-poultry
+Scraping articles:   1%|1         | 34/2871 [03:55<6:10:32,  7.84s/it]Scraping article 35/2871: https://www.merckvetmanual.com/management-and-nutrition/nutrition-pigs/feeding-levels-and-practices-in-pigs
+Scraping articles:   1%|1         | 35/2871 [04:02<5:58:04,  7.58s/it]Scraping article 36/2871: https://www.merckvetmanual.com/management-and-nutrition/nutrition-horses/feeding-the-sick-horse-and-other-equids
+Scraping articles:   1%|1         | 36/2871 [04:08<5:41:45,  7.23s/it]Scraping article 37/2871: https://www.merckvetmanual.com/digestive-system/hepatic-diseases-of-small-animals/miscellaneous-disorders-of-the-bile-ducts-in-small-animals
+Scraping articles:   1%|1         | 37/2871 [04:14<5:25:46,  6.90s/it]Scraping article 38/2871: https://www.merckvetmanual.com/infectious-diseases/porcine-circovirus-diseases/porcine-circovirus-diseases
+Scraping articles:   1%|1         | 38/2871 [04:22<5:37:44,  7.15s/it]Scraping article 39/2871: https://www.merckvetmanual.com/management-and-nutrition/nutrition-horses/feeding-the-aged-horse-and-the-orphan-foal
+Scraping articles:   1%|1         | 39/2871 [04:28<5:15:09,  6.68s/it]Scraping article 40/2871: https://www.merckvetmanual.com/reproductive-system/bovine-genital-campylobacteriosis/bovine-genital-campylobacteriosis
+Scraping articles:   1%|1         | 40/2871 [04:33<4:51:12,  6.17s/it]Scraping article 41/2871: https://www.merckvetmanual.com/integumentary-system/flies/head-flies-of-cattle-and-sheep
+Scraping articles:   1%|1         | 41/2871 [04:39<4:58:47,  6.33s/it]Scraping article 42/2871: https://www.merckvetmanual.com/generalized-conditions/glanders/glanders-in-horses-and-other-equids
+Scraping articles:   1%|1         | 42/2871 [04:45<4:51:21,  6.18s/it]Scraping article 43/2871: https://www.merckvetmanual.com/infectious-diseases/nocardiosis/nocardiosis-in-animals
+Scraping articles:   1%|1         | 43/2871 [04:50<4:40:43,  5.96s/it]Scraping article 44/2871: https://www.merckvetmanual.com/digestive-system/hepatic-diseases-of-small-animals/nutrition-in-hepatic-disease-in-small-animals
+HTTP error 403, requests are being blocked, terminating script for now.
+Scraping articles:   1%|1         | 43/2871 [04:51<5:19:05,  6.77s/it]
+❌ Access denied to https://www.merckvetmanual.com/digestive-system/hepatic-diseases-of-small-animals/nutrition-in-hepatic-disease-in-small-animals.
+✅ Scraped 43 new articles. Total: 100.

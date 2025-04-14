@@ -1,0 +1,75 @@
+Scraping articles
+:   0%|          | 0/2738 [00:00<?, ?it/s]Scraping article 1/2738: https://www.merckvetmanual.com/horse-owners/kidney-and-urinary-tract-disorders-of-horses/congenital-and-inherited-disorders-of-the-urinary-system-in-horses
+Scraping articles
+:   0%|          | 1/2738 [00:06<4:39:31,  6.13s/it]Scraping article 2/2738: https://www.merckvetmanual.com/all-other-pets/chinchillas/providing-a-home-for-a-chinchilla
+Scraping articles
+:   0%|          | 2/2738 [00:12<4:56:49,  6.51s/it]Scraping article 3/2738: https://www.merckvetmanual.com/musculoskeletal-system/lameness-in-horses/exostoses-of-the-metatarsal-bones-in-horses
+Scraping articles
+:   0%|          | 3/2738 [00:17<4:23:32,  5.78s/it]Scraping article 4/2738: https://www.merckvetmanual.com/integumentary-system/atopic-dermatitis/atopic-dermatitis-in-animals
+Scraping articles
+:   0%|          | 4/2738 [00:25<4:52:43,  6.42s/it]Scraping article 5/2738: https://www.merckvetmanual.com/dog-owners/reproductive-disorders-of-dogs/transmissible-venereal-tumor-in-dogs
+Scraping articles
+:   0%|          | 4/2738 [00:27<5:11:40,  6.84s/it]
+✅ Scraped 4 new articles. Total: 194.
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/webscraper/lib/python3.13/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/opt/anaconda3/envs/webscraper/lib/python3.13/asyncio/base_events.py", line 719, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/Users/johannes/ML Projects/WebScraper/scraper.py", line 153, in main
+    article = await scrape_article(page, url)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/johannes/ML Projects/WebScraper/scraper.py", line 67, in scrape_article
+    response = await page.goto(url, wait_until="domcontentloaded")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/webscraper/lib/python3.13/site-packages/playwright/async_api/_generated.py", line 8987, in goto
+    await self._impl_obj.goto(
+        url=url, timeout=timeout, waitUntil=wait_until, referer=referer
+    )
+  File "/opt/anaconda3/envs/webscraper/lib/python3.13/site-packages/playwright/_impl/_page.py", line 552, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/webscraper/lib/python3.13/site-packages/playwright/_impl/_frame.py", line 145, in goto
+    await self._channel.send("goto", locals_to_params(locals()))
+  File "/opt/anaconda3/envs/webscraper/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 61, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "/opt/anaconda3/envs/webscraper/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 526, in wrap_api_call
+    return await cb()
+           ^^^^^^^^^^
+  File "/opt/anaconda3/envs/webscraper/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 92, in _inner_send
+    done, _ = await asyncio.wait(
+              ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/opt/anaconda3/envs/webscraper/lib/python3.13/asyncio/tasks.py", line 451, in wait
+    return await _wait(fs, timeout, return_when, loop)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/webscraper/lib/python3.13/asyncio/tasks.py", line 537, in _wait
+    await waiter
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/johannes/ML Projects/WebScraper/scraper.py", line 198, in <module>
+    asyncio.run(main())
+    ~~~~~~~~~~~^^^^^^^^
+  File "/opt/anaconda3/envs/webscraper/lib/python3.13/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "/opt/anaconda3/envs/webscraper/lib/python3.13/asyncio/runners.py", line 123, in run
+    raise KeyboardInterrupt()
+KeyboardInterrupt
+Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed\nCall log:\n  - navigating to "https://www.merckvetmanual.com/dog-owners/reproductive-disorders-of-dogs/transmissible-venereal-tumor-in-dogs", waiting until "domcontentloaded"\n')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+Call log:
+  - navigating to "https://www.merckvetmanual.com/dog-owners/reproductive-disorders-of-dogs/transmissible-venereal-tumor-in-dogs", waiting until "domcontentloaded"
+

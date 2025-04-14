@@ -1,0 +1,7 @@
+Scraping articles:   0%|          | 0/2918 [00:00<?, ?it/s]Scraping article 1/2918: https://www.merckvetmanual.com/digestive-system/coccidiosis/coccidiosis-of-pigs
+Scraping articles:   0%|          | 1/2918 [00:15<12:15:04, 15.12s/it]Scraping article 2/2918: https://www.merckvetmanual.com/digestive-system/intestinal-diseases-in-pigs/porcine-coronaviral-enteritis
+Scraping articles:   0%|          | 2/2918 [00:18<6:27:26,  7.97s/it] Scraping article 3/2918: https://www.merckvetmanual.com/all-other-pets/reptiles/special-considerations-for-reptiles
+Scraping articles:   0%|          | 3/2918 [00:23<5:22:05,  6.63s/it]Scraping article 4/2918: https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-nervous-system/antiepileptic-drugs-used-to-stop-ongoing-seizure-activity
+Scraping articles:   0%|          | 3/2918 [00:29<7:56:41,  9.81s/it]
+❌ An unexpected error occurred: 'NoneType' object has no attribute 'query_selector_all'
+✅ Scraped 3 new articles. Total: 13.
