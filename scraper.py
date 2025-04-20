@@ -154,15 +154,12 @@ async def main():
     try:
         for i, url in enumerate(tqdm(urls, desc="Scraping articles\n")):
             print('\n')
-            #print(f"\nScraping article {i + 1}/{len(urls)}: {url}")
             article = await scrape_article(page, url)
             if not article:
                 print(f"⚠️ Failed to scrape article {i + 1}")
                 continue
             articles.append(article)
             to_scrape.remove(url)
-            #if i%30 == 0:
-            #    await asyncio.sleep(sleep_time)  
     except KeyboardInterrupt:
         print("❌ Interrupted by user. Saving progress...")
     except AccessDenied as e:
