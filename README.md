@@ -3,7 +3,9 @@
 As part of the project of creating a **veterinary assistant chatbot powered by Retrieval-Augmented Generation (RAG)**, 
 this codebase is designed to create a dataset of high-quality veterinary science articles by scraping 
 the **Merck Veterinary Manual**—a well-respected and freely accessible resource in the field of veterinary science.
-As Merck does not offer a public **API**, this is the only way to retrieve their content 
+As Merck does not offer a public **API**, this is the only way to retrieve their content. 
+After scraping [merckvetmanual.com](https://merckvetmanual.com), we end with 19.7 MB of data made up of ~3000 individual articles and a total of 2836584 words. 
+The dataset is freely available [here](https://raw.githubusercontent.com/JohannesSchulz97/WebScraper/refs/heads/main/data/merck-articles.json).
 
 ## Installation of Dependencies
 
