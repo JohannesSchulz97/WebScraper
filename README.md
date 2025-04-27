@@ -108,7 +108,3 @@ At its core, the scraper visits each URL in the `content_urls.txt` file, retriev
 	}
 
 ```
-After scraping the Merck Veterinary Manual website, we end 19.7 MB of data made up of ~3000 individual articles and a total of 2836584 words. 
-The dataset is freely available [here](https://raw.githubusercontent.com/JohannesSchulz97/WebScraper/refs/heads/main/data/merck-articles.json).
-
-
