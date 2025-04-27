@@ -26,7 +26,6 @@ consecutive_requests = 100
 
 
 """ TODO: 
-- add logic to log all prints in a separate file, 
 - check why this page: https://www.merckvetmanual.com/poultry/avian-influenza-in-poultry-and-wild-birds/avian-influenza-in-poultry-and-wild-birds
   is being being skipped in find_urls function
 """
@@ -68,7 +67,6 @@ async def find_urls(page):
 
 
 async def crawl(page):
-
     # Retrieve visited and to_explore URLs from files
     with open('./data/visited.txt', "r", encoding="utf-8") as f:
         visited = set(line.strip() for line in f if line.strip())
